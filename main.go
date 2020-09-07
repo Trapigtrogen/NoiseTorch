@@ -113,8 +113,8 @@ func main() {
 		}
 
 		if supressorState(paClient) != unloaded {
-			fmt.Fprintf(os.Stderr, "Supressor is already loaded.\n")
-			os.Exit(1)
+			fmt.Fprintf(os.Stdout, "Supressor is already loaded.\n")
+			os.Exit(0)
 		}
 
 		sources := getSources(paClient)
