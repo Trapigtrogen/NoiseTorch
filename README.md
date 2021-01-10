@@ -1,3 +1,5 @@
+ My fork just has one line changed so it does warning instead of system error when the supressor is already loaded
+ 
  <img src="https://raw.githubusercontent.com/lawl/NoiseTorch/master/assets/icon/noisetorch.png" width="100" height="100">
 
 # NoiseTorch
